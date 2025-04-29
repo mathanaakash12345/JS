@@ -1,0 +1,44 @@
+JAVASCRIPT
+
+
+History:
+	JavaScript was invented by Brendan Eich in 1995 and then Netscape2 was released in 1996 with JS 1.0
+	At 1997 it become the ECMA standard [ECMA-262]
+	Initially, it was developed in just 10 days under the name Mocha. later renamed to Live script and then JavaScript.
+	
+
+ECMA Script:
+	ECMA script is standard specification -> It defines how javascript should behave. It was created by ECMA international.
+	The ECMAScript standard ensures that JavaScript behaves consistently across different browsers and platforms.
+		ES3 (1999): The first release.
+
+		ES5 (2009): Introduced many features i.e., strict mode, JSON.
+
+		ES6 / ES2015: Then updates i.e., arrow functions, let/const, promises, modules.
+
+		ES7, ES8, etc.:  adding features like async/await, shared memory, and more.
+
+
+How JavaScript and ECMA are related:
+	JavaScript is an implementation of ECMAScript.
+
+	ECMA script specify that how should javascript should behave
+
+	 ECMAScript like a set of rules, which used to develop the real-world projects.
+	
+
+DOM and Browser Object Model:
+	Both DOM and BOM allow JavaScript to interact with the web page and browser.
+	
+	Document Object Model[DOM]:
+		It  represents the HTML structure of the webpage.
+		With the help of DOM,  JS can add, remove, modify, and read content, styles, and attributes on the webpage.
+	Browser Object Model[BOM]:
+		It allows JS to interact with the browser itself, not just the webpage.
+		With the BOM, you can do,
+			The browser window (resize, open/close new windows)
+	
+			Navigate the browser 
+
+			Handling browser events.
+
