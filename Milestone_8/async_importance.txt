@@ -1,0 +1,6 @@
+Why Async is Needed in JS:
+        The JS is single-thread ----> It can only excecute one operation at one time
+        without the async operation, some task take much time then expected, it blocks the main thread
+            making the application unresponsive.
+        Also with the Async program ---> JS can handle this kind of task without freezing it
+        It makes the Async is efficient.
