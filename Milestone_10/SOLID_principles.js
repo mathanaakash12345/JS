@@ -6,7 +6,7 @@ class User {
     }
 
     getdet(){
-        return this.name+" "+this.email
+        return "name:"+this.name+" email:"+this.email
     }
 }
 
@@ -29,10 +29,15 @@ class upipay extends paymentmeth{
     }
 }
 
+
+//L
 function makepay(paymeth,amt){
     paymeth.pay(amt)
 }
 
+
+
+//I
 class printable{
     print(){
         throw new Error("method not implement")
@@ -50,6 +55,9 @@ class invoicprit extends printable{
     }
 }
 
+
+
+// D
 class orderprocess {
     constructor(paymeth,printer){
         this.paymeth = paymeth
@@ -71,3 +79,10 @@ const pay = new creditpay()
 const invoice = new invoicprit(user.getdet())
 const order = new orderprocess(pay,invoice)
 order.payprocess(500)
+
+console.log("---------")
+const u1 = new User("Lal","123@gmail.com")
+const p1  = new upipay()
+const i1 = new invoicprit(u1.getdet())
+const o1 = new orderprocess(p1,i1)
+o1.payprocess(2000)
